@@ -1,2 +1,6 @@
+# lingering crap
 *.swp
 .DS_Store
+
+venv
+*.pyc
