@@ -1,3 +1,2 @@
-web: gunicorn snackbot.wsgi --log-file -
-web: python snackbot/manage.py runserver
+web: python snackbot/manage.py runserver 0.0.0.0:$PORT --noreload
 
